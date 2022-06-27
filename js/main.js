@@ -56,11 +56,6 @@ document.addEventListener('DOMContentLoaded', function () {
     spaceBetween: 50,
     pagination: {
       el: '.swiper-pagination'
-    },
-    breakpoints: {
-      1200: {
-        slidesPerView: 2
-      }
     }
   });
   var worksList = document.querySelector('.works__items'),
