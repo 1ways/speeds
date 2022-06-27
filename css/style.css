@@ -159,6 +159,7 @@ body.locked {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-bottom: 400px;
 }
 
 .hero__title {
@@ -1289,6 +1290,7 @@ button.swiper-pagination-bullet {
 @media (min-width: 768px) {
   .hero {
     height: 100vh;
+    padding-bottom: 0;
   }
 
   .header__btn:hover {
